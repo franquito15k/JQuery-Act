@@ -1,0 +1,67 @@
+.tabhead{
+    border: 1px solid black;
+}
+
+.tabbody{
+    border: 1px solid black;
+}
+
+.negro {
+    color:white;
+}
+.blanco {
+    color: blue;
+} 
+
+#miDiv {
+    width: 800px;
+    height: 70px;
+    background-color: lightblue;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    color: blue; 
+    font-size: 16px; 
+    margin: 10px; 
+}
+
+#div1, #div2 {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#div2 {
+    display: none;
+}
+
+#div11, #div22 {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#div22 {
+    display: none;
+}
+
+#div111, #div222 {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    transition: opacity 0.5s ease;
+}
+#div222 {
+    display: none;
+}
+
+.resaltado {
+    background-color: yellow;
+    font-weight: bold;
+}
